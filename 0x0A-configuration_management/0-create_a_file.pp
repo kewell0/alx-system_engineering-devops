@@ -1,4 +1,4 @@
-# This manifest contains the declaration of a file resource.
+# create a file in /tmp.
 file {'/tmp/school':
   ensure  => 'file',
   mode    => '0744',
