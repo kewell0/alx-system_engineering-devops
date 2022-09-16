@@ -1,7 +1,6 @@
-# create a file /tmp/
-file { '/tmp/school':
+# This manifest contains the declaration of a file resource.
+file {'/tmp/school':
   ensure  => 'file',
-  path    => '/tmp/holberton',
   mode    => '0744',
   owner   => 'www-data',
   group   => 'www-data',
